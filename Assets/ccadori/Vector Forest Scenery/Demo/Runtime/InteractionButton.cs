@@ -6,6 +6,7 @@ namespace VectorForestScenery.Demo
 {
     public class InteractionButton : MonoBehaviour
     {
+        [SerializeField] AudioSource buttonClick;
         #region "Inspector"
         public Demo _demo;
         public InteractionType _interactionType;
@@ -14,6 +15,7 @@ namespace VectorForestScenery.Demo
         public virtual void OnClick()
         {
             _demo.CurrentInteraction = _interactionType;
+            buttonClick.Play();
         }
     }
 }

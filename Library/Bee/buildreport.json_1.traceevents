@@ -1,0 +1,554 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1656042486469657, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042486471866, "dur": 35489, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042486507704, "dur": 75485, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042486583231, "dur": 494189, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042487077423, "dur": 6863741, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042493941189, "dur": 9857, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042505919423, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042505919671, "dur": 3211, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042505922885, "dur": 33026, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042505955913, "dur": 901157, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042506857073, "dur": 1703218, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042508560293, "dur": 13375, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042508574404, "dur": 25, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1656042506670139, "dur": 172102, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656042506671218, "dur": 45321, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656042506824706, "dur": 4959, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656042506829670, "dur": 12553, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656042506830517, "dur": 10481, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656042506849107, "dur": 1790, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1656042506847943, "dur": 2994, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042508574545, "dur": 325, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1656042506909004, "dur":1826, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042506910840, "dur":43, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1656042506910898, "dur":16, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1656042506910915, "dur":529, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1656042506911470, "dur":703, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042506912173, "dur":2, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508539984, "dur":352, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540336, "dur":24, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540360, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540365, "dur":45, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540410, "dur":39, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540449, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540463, "dur":4, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540467, "dur":15, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540482, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540485, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540493, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540496, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540504, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540507, "dur":7, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540514, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540516, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540525, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540527, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540536, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540538, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540547, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540549, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540557, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540559, "dur":8, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540567, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540597, "dur":3, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508540620, "dur":2194, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1656042506911501, "dur":684, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042506912189, "dur":5416, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042506917623, "dur":3, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656042506917635, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042506919506, "dur":877, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656042506920391, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656042506920453, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042506920687, "dur":10832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1656042506931524, "dur":177, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1656042506931706, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042506932683, "dur":3477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1656042506936233, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1656042506936397, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042506936410, "dur":4713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":1, "ts":1656042506941178, "dur":227550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507168736, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042507168747, "dur":42148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507210948, "dur":156628, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507367621, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042507367636, "dur":1880, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507369587, "dur":62739, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507432338, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042507432356, "dur":2215, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507434616, "dur":55354, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507489978, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042507489992, "dur":3288, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507493328, "dur":76502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507569838, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042507569851, "dur":1471, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507571370, "dur":191502, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507762880, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042507762894, "dur":1901, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507764845, "dur":57687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507822544, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042507822565, "dur":1353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042507823962, "dur":402585, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042508226554, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1656042508226564, "dur":5311, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":1, "ts":1656042508231917, "dur":308108, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042506911553, "dur":651, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042506912205, "dur":5615, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042506917821, "dur":14753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656042506932579, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042506932603, "dur":2697, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1656042506935385, "dur":258, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1656042506935649, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042506936038, "dur":260827, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":2, "ts":1656042507196913, "dur":187495, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507384421, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042507384443, "dur":1672, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507386167, "dur":244559, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507630733, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042507630747, "dur":1812, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507632613, "dur":51374, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507683996, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042507684010, "dur":1412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Networking.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507685516, "dur":39148, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507724673, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042507724691, "dur":6727, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Device.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042507731491, "dur":295831, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042508027330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042508027342, "dur":1934, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042508029319, "dur":325391, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042508354716, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1656042508354728, "dur":1703, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":2, "ts":1656042508356464, "dur":183513, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042506911545, "dur":648, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042506912193, "dur":5649, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042506917843, "dur":131, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656042506917978, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042506925545, "dur":16463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1656042506942055, "dur":120543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1656042507062607, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507062619, "dur":3101, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":3, "ts":1656042507065767, "dur":39096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507104872, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507104887, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507108577, "dur":169491, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507278083, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507278107, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507279653, "dur":91222, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507370885, "dur":7, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507370904, "dur":1413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507372360, "dur":54074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507426440, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507426452, "dur":2092, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507428589, "dur":32404, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507461000, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507461013, "dur":13365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507474451, "dur":199489, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507673947, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507673962, "dur":2646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507676650, "dur":1552, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507678210, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507678224, "dur":3636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Environments.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507681936, "dur":54723, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507736668, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507736685, "dur":1974, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507738702, "dur":144009, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507882719, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042507882731, "dur":1444, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042507884216, "dur":218331, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042508102559, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042508102581, "dur":2450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":3, "ts":1656042508105082, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1656042508105136, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042508105190, "dur":3817, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":3, "ts":1656042508109165, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656042508109236, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042508109248, "dur":6346, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":3, "ts":1656042508115650, "dur":164, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1656042508115819, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042508115830, "dur":1577, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":3, "ts":1656042508117459, "dur":40, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656042508117502, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042508117514, "dur":2011, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656042508119577, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656042508119622, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042508119631, "dur":2197, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/level0.resS" }}
+,{ "pid":12345, "tid":3, "ts":1656042508121879, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1656042508122052, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1656042508122060, "dur":2145, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/boot.config" }}
+,{ "pid":12345, "tid":3, "ts":1656042508124248, "dur":415772, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042506911586, "dur":627, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042506912213, "dur":5581, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042506917797, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1656042506918259, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042506933291, "dur":7537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1656042506940888, "dur":91975, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507032872, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042507033061, "dur":8389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507041498, "dur":50500, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507092006, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042507092022, "dur":1637, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507093709, "dur":30067, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507123786, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042507123802, "dur":1499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507125355, "dur":425033, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507550398, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042507550413, "dur":50221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507600686, "dur":115389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507716084, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042507716099, "dur":1857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507717999, "dur":90359, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507808369, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042507808390, "dur":1746, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507810175, "dur":57233, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507867416, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042507867431, "dur":3489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042507870964, "dur":279817, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042508150787, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1656042508150878, "dur":2244, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1656042508153159, "dur":386826, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042506911623, "dur":595, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042506912219, "dur":5569, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042506917790, "dur":598, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656042506918398, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042506921148, "dur":275526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1656042507196744, "dur":124684, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507321440, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042507321462, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507323298, "dur":79840, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507403150, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042507403171, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507405174, "dur":26742, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507431928, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042507431946, "dur":1821, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507433812, "dur":123341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507557161, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042507557175, "dur":1492, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507558711, "dur":94074, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507652797, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042507652818, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507654745, "dur":32708, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507687462, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042507687478, "dur":7274, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Environments.Internal.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507694798, "dur":1308, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507696118, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042507696140, "dur":1600, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Analytics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042507697786, "dur":401444, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042508099237, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042508099250, "dur":4917, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":5, "ts":1656042508104210, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1656042508104404, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042508105017, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/StreamingAssets/UnityServicesProjectConfiguration.json" }}
+,{ "pid":12345, "tid":5, "ts":1656042508106642, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1656042508106688, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042508106699, "dur":2028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":5, "ts":1656042508108770, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656042508108812, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042508108823, "dur":6840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":5, "ts":1656042508115707, "dur":1107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1656042508116823, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042508116949, "dur":2056, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1656042508119053, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656042508119115, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042508119127, "dur":1944, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/resources.assets" }}
+,{ "pid":12345, "tid":5, "ts":1656042508121125, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1656042508121175, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1656042508121187, "dur":2264, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/level0" }}
+,{ "pid":12345, "tid":5, "ts":1656042508123553, "dur":416423, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042506911657, "dur":569, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042506912226, "dur":5463, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042506917689, "dur":214, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1656042506917910, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042506921379, "dur":11020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":6, "ts":1656042506932446, "dur":144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1656042506932594, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042506932687, "dur":72642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1656042507005400, "dur":168, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1656042507005573, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507006224, "dur":16247, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1656042507022521, "dur":56324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507078854, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507078868, "dur":2922, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507081833, "dur":29820, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507111661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507111674, "dur":3037, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507114884, "dur":54192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507169088, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507169108, "dur":1755, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507170912, "dur":109138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507280056, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507280068, "dur":2111, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507282219, "dur":53794, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507336025, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507336046, "dur":1510, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507337603, "dur":193663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507531276, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507531293, "dur":2013, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507533354, "dur":72263, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507605626, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507605641, "dur":2521, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507608212, "dur":39467, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507647688, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507647702, "dur":1251, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Threading.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507648994, "dur":80569, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507729573, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042507729588, "dur":4254, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Internal.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042507733885, "dur":283472, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042508017366, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042508017378, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042508019479, "dur":516195, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042508535680, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1656042508535689, "dur":4175, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":6, "ts":1656042508539917, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1656042508539921, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042506911689, "dur":544, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042506912233, "dur":5532, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042506917766, "dur":13527, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1656042506931726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042506931750, "dur":3211, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1656042506935017, "dur":68306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1656042507003336, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507003358, "dur":3567, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1656042507006984, "dur":37629, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507044731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507044822, "dur":1795, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507046670, "dur":91508, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507138188, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507138201, "dur":2305, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507140558, "dur":239959, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507380529, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507380550, "dur":2342, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507382969, "dur":79716, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507462694, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507462709, "dur":11765, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507474533, "dur":36321, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507510865, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507510888, "dur":1323, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507512253, "dur":113237, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507625501, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507625523, "dur":2228, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507627797, "dur":1342, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507629148, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507629163, "dur":1484, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Scheduler.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507630696, "dur":54902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507685609, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507685629, "dur":2059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Registration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507687736, "dur":48981, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507736724, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507736735, "dur":2042, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Configuration.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507738826, "dur":111268, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507850101, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507850115, "dur":19047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507869204, "dur":73673, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507942885, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042507942904, "dur":1482, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042507944422, "dur":106468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042508050903, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042508050922, "dur":1741, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042508052706, "dur":31076, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/com.ccadori.vectorforestscenerydemo.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042508083791, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042508083810, "dur":1556, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/com.ccadori.vectorforestscenerydemo.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042508085410, "dur":39184, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042508124602, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1656042508124618, "dur":1571, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":7, "ts":1656042508126235, "dur":413746, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042506911729, "dur":515, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042506912244, "dur":5523, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042506917768, "dur":550, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1656042506918330, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042506934048, "dur":2617, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1656042506936714, "dur":67988, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507004709, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507005245, "dur":2052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507007347, "dur":51352, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507058707, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507058721, "dur":2180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507060955, "dur":38019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507098986, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507099003, "dur":2399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507101449, "dur":135969, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507237430, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507237451, "dur":1761, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507239260, "dur":65868, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507305137, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507305152, "dur":2066, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507307262, "dur":48025, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507355299, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507355322, "dur":1357, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507356720, "dur":90575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507447308, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507447331, "dur":2373, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507449755, "dur":164192, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507613955, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507613968, "dur":1742, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507615760, "dur":75432, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507691199, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507691212, "dur":3990, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Services.Core.Telemetry.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507695241, "dur":153169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507848420, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042507848438, "dur":20534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042507869023, "dur":357207, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042508226239, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1656042508226254, "dur":5180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":8, "ts":1656042508231480, "dur":308534, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042506911770, "dur":482, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042506912253, "dur":5370, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042506917624, "dur":85764, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1656042507003395, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507003946, "dur":1578, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":9, "ts":1656042507005573, "dur":80144, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507085731, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507085892, "dur":4267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507090220, "dur":27952, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507118182, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507118198, "dur":1548, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507119796, "dur":74778, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507194585, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507194633, "dur":2278, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507196961, "dur":109138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507306111, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507306132, "dur":1701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507307882, "dur":29889, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507337779, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507337793, "dur":1345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507339190, "dur":37411, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507376611, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507376626, "dur":1888, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507378562, "dur":46024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507424596, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507424610, "dur":1500, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507426257, "dur":34974, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507461236, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507461246, "dur":13126, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507474585, "dur":78277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507552875, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507552897, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507554458, "dur":210523, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507764987, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507765000, "dur":1422, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507766465, "dur":174678, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507941150, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042507941161, "dur":1537, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042507942734, "dur":176430, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042508119171, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042508119184, "dur":2390, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Newtonsoft.Json.dll" }}
+,{ "pid":12345, "tid":9, "ts":1656042508121621, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1656042508121670, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1656042508121681, "dur":1951, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":9, "ts":1656042508123674, "dur":416357, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042506911805, "dur":453, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042506912258, "dur":5516, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042506917777, "dur":12943, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1656042506931411, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042506931528, "dur":3878, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1656042506935482, "dur":367, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1656042506936102, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042506936384, "dur":69286, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":10, "ts":1656042507005725, "dur":34586, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507040320, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507040767, "dur":2104, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507042922, "dur":31524, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507074459, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507074480, "dur":1961, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507076484, "dur":34703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507111198, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507111217, "dur":3007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507114316, "dur":39937, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507154267, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507154290, "dur":1542, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507155887, "dur":101096, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507256996, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507257016, "dur":1488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507258544, "dur":90479, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507349032, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507349046, "dur":2112, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507351203, "dur":108468, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507459682, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507459704, "dur":12935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507472708, "dur":80204, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507552947, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507552958, "dur":1686, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507554712, "dur":48007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507602728, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042507602743, "dur":1515, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042507604302, "dur":477687, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042508081997, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042508082010, "dur":2845, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042508084898, "dur":40924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/com.ccadori.vectorforestscenery.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042508125831, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1656042508125848, "dur":1457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/com.ccadori.vectorforestscenery.Runtime.dll" }}
+,{ "pid":12345, "tid":10, "ts":1656042508127353, "dur":412646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042506911840, "dur":425, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042506912265, "dur":5634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042506917900, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1656042506918061, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042506925789, "dur":281047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1656042507206888, "dur":75038, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507281939, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042507281961, "dur":1860, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507283870, "dur":142121, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507425999, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042507426011, "dur":1864, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507427928, "dur":39341, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507467281, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042507467300, "dur":25144, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507492524, "dur":61971, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507554507, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042507554528, "dur":1952, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507556526, "dur":40300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507596839, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042507596913, "dur":4559, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507601523, "dur":121001, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507722586, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042507722608, "dur":2015, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507724659, "dur":173860, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507898525, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042507898537, "dur":1885, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042507900474, "dur":219245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042508119726, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042508119737, "dur":2074, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1656042508121874, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1656042508121926, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1656042508121935, "dur":2072, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":11, "ts":1656042508124053, "dur":415983, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042506911883, "dur":390, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042506912273, "dur":5582, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042506917857, "dur":12314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1656042506930181, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042506930211, "dur":1636, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":12, "ts":1656042506931899, "dur":11375, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1656042506943283, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042506943301, "dur":61399, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":12, "ts":1656042507004757, "dur":54203, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1.exe" }}
+,{ "pid":12345, "tid":12, "ts":1656042507058968, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042507058979, "dur":2611, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1.exe" }}
+,{ "pid":12345, "tid":12, "ts":1656042507061637, "dur":217652, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507279296, "dur":3, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042507279334, "dur":1866, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507281255, "dur":42347, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507323608, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042507323619, "dur":1262, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507324919, "dur":135473, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507460400, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042507460413, "dur":12811, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507473390, "dur":51194, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507524592, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042507524609, "dur":1503, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507526199, "dur":46663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507572875, "dur":4, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042507572897, "dur":1470, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507574412, "dur":242753, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507817173, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042507817186, "dur":1839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042507819066, "dur":355588, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042508174661, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1656042508174670, "dur":1668, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Zakku/Desktop/Game Project Output/Test Ambient/Focusmon1_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":12, "ts":1656042508176416, "dur":363628, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1656042508545292, "dur":2409, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1656042508574933, "dur": 666, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1656042508574389, "dur": 1242, "ph": "X", "name": "Write chrome-trace events", "args": {} },
